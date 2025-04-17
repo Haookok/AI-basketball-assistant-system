@@ -1,5 +1,10 @@
 # ai-based-basketball-coaching-assistant-dialogue-system-front
 
+!!! 
+```
+cd ai-based-basketball-coaching-assistant-dialogue-system-front
+```
+
 ## Project setup
 ```
 npm install
