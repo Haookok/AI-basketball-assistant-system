@@ -12,7 +12,7 @@
         router
         class="top-menu"
         background-color="#000"
-        text-color="#ccc"
+        text-color="#bbb"
         active-text-color="#fff"
       >
         <el-menu-item index="/home">首页</el-menu-item>
@@ -31,7 +31,7 @@ import { useRoute } from 'vue-router'
 const route = useRoute();
 const activeMenu = ref(route.path);
 
-// 监听 route.path 的变化（而不是 router 对象）
+// 监听 route.path 的变化
 watch(() => route.path, (newPath) => {
   activeMenu.value = newPath;
 });
@@ -78,7 +78,7 @@ watch(() => route.path, (newPath) => {
 
 .top-menu ::v-deep(.el-menu-item) {
   font-size: 18px;
-  line-height: 50px; /* 垂直居中，推荐 */
+  line-height: 50px; 
 }
 
 .top-menu ::v-deep(.el-menu-item.is-active) {

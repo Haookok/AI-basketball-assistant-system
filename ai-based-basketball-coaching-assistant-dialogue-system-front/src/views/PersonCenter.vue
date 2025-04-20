@@ -2,7 +2,7 @@
     <div>
       <TopBar />
       <div style="padding: 20px">
-      <h1>个人中心</h1>
+      <p>开发进行中，很快上线，敬请期待！</p>
       </div>
     </div>
   </template>
