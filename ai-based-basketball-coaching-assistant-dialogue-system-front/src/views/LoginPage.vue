@@ -4,9 +4,7 @@
     </div>
   </template>
   
-  <script set up>
-  export default {
-    name: 'LoginPage',
-  };
+  <script setup>
+ 
   </script>
   

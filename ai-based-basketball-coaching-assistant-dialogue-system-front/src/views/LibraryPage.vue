@@ -2,8 +2,7 @@
     <div>
       <TopBar />
       <div style="padding: 20px">
-      <h1>首页</h1>
-      <p>欢迎来到首页！</p>
+      <h1>知识库</h1>
       </div>
     </div>
   </template>
@@ -11,3 +10,4 @@
   <script setup>
   import TopBar from '../components/TopBar.vue'
   </script>
+  

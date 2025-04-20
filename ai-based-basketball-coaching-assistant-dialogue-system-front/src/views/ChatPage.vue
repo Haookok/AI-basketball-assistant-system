@@ -1,12 +1,13 @@
 <template>
     <div>
-      <h1>AI对话</h1>
+      <TopBar />
+      <div style="padding: 20px">
+      <h1>ai对话</h1>
+      </div>
     </div>
   </template>
   
-  <script set up>
-  export default {
-    name: 'ChatPage',
-  };
+  <script setup>
+  import TopBar from '../components/TopBar.vue'
   </script>
   
