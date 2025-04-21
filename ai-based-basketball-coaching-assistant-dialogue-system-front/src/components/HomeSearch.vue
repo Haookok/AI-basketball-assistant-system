@@ -3,11 +3,11 @@
       <!-- 左侧卡通图像 -->
       <img src="@/assets/basketboy.png" alt="basketboy" class="basketboy-img" />
   
-      <!-- 新增知识按钮-->
+      <!-- 新增知识按钮
       <el-button type="primary" class="add-knowledge-btn">
         <el-icon><Plus /></el-icon>
         新增知识
-      </el-button>
+      </el-button>-->
   
       <!-- 搜索框 -->
       <div class="search-bar">
@@ -25,23 +25,22 @@
         </el-input>
       </div>
   
-      <!-- 热门标签 -->
+      <!-- 热门标签 
       <div class="hot-tags">
         <div class="hot-tags-title">
             <el-icon><CollectionTag /></el-icon>
             <span>热门标签</span>
         </div>
-        <!--<el-tag type="warning" effect="light" class="tag-with-badge">3</el-tag>-->
         <span class="tag-item">🏀 球星技术解析</span>
         <span class="tag-item">🔥 NBA季后赛密技</span>
         <span class="tag-item">👟 球鞋与装备指南</span>
-      </div>
+      </div>-->
     </div>
   </template>
   
   <script setup>
   import { ref } from 'vue'
-  import { Plus, CollectionTag } from '@element-plus/icons-vue'
+  //import { Plus,CollectionTag } from '@element-plus/icons-vue'
   
   const searchText = ref('')
   
@@ -56,6 +55,7 @@
   padding: 40px 20px 70px;
   border-radius: 10px;
   position: relative;
+  height: 160px;
   overflow: hidden;
   text-align: center;
 }
@@ -68,14 +68,14 @@
   width: 194px;
 }
 
-.add-knowledge-btn {
+/*.add-knowledge-btn {
   position: flex;
-}
+}*/
 
 .search-bar {
   max-width: 700px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .search-input :deep(.el-input__wrapper) {
@@ -100,7 +100,7 @@
   min-width: 100px;
 }
 
-.hot-tags {
+/*.hot-tags {
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -121,7 +121,7 @@
   font-weight: bold;
 }
 
-/*.tag-item {
+.tag-item {
   background: rgba(255, 255, 255, 0.1);
   padding: 4px 10px;
   border-radius: 12px;

@@ -11,15 +11,16 @@
             <span class="view"><el-icon><View /></el-icon>{{ item.views }}</span>
             </li>
         </ul>
-        <div class="more">
+        <!-- <div class="more">
             <el-icon class="more-icon"><ArrowRight /></el-icon>
-            更多</div>
+            更多</div> -->
         </div>
     </div>
   </template>
   
   <script setup>
-  import { View, ArrowRight } from '@element-plus/icons-vue'
+  import { View} from '@element-plus/icons-vue'
+  // import { ArrowRight } from '@element-plus/icons-vue'
   
   const knowledgeList = [
     { title: '从入门到精通：篮球规则全图解', views: 156 },
@@ -92,7 +93,7 @@
     gap: 4px;
   }
   
-  .more {
+  /* .more {
     text-align: right;
     color: #0c1f69;
     font-weight: bold;
@@ -110,6 +111,6 @@
     border-radius: 50%;         
     color: white;      
     font-weight:bold        
-  }
+  } */
   </style>
   

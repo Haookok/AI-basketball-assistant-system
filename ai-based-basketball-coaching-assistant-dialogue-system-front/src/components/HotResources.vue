@@ -13,17 +13,18 @@
             </span>
             </li>
         </ul>
-        <div class="more">
+        <!-- <div class="more">
             <el-icon class="more-icon"><ArrowRight /></el-icon>
             更多
-        </div>
+        </div> -->
       </div>
     </div>
   </template>
   
   
   <script setup>
-    import { Download, ArrowRight } from '@element-plus/icons-vue'
+    import { Download} from '@element-plus/icons-vue'
+    // import { ArrowRight } from '@element-plus/icons-vue'
 
     const knowledgeList = [
     { title: '2024考研政治大纲核心整理', downloads: 520 },
@@ -102,7 +103,7 @@
   }
 
   
-  .more {
+  /* .more {
     text-align: right;
     color: #0c1f69;
     font-weight: bold;
@@ -120,6 +121,6 @@
     border-radius: 50%;         
     color: white;      
     font-weight:bold        
-  }
+  } */
   </style>
   

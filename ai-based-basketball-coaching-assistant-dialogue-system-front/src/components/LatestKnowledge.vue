@@ -13,16 +13,17 @@
                 {{ item.uploadTime }}</span>
             </li>
         </ul>
-        <div class="more">
+        <!-- <div class="more">
             <el-icon class="more-icon"><ArrowRight /></el-icon>
             更多
-        </div>
+        </div> -->
       </div>
     </div>
   </template>  
   
   <script setup>
-  import { Upload, ArrowRight } from '@element-plus/icons-vue'
+  import { Upload} from '@element-plus/icons-vue'
+  // import { ArrowRight } from '@element-plus/icons-vue'
   
   const knowledgeList = [
     { title: '人工智能基础知识整理', uploadTime: '2025-04-19' },
@@ -95,7 +96,7 @@
   }
 
   
-  .more {
+  /* .more {
     text-align: right;
     color: #0c1f69;
     font-weight: bold;
@@ -113,6 +114,6 @@
     border-radius: 50%;         
     color: white;      
     font-weight:bold        
-  }
+  } */
   </style>
   
