@@ -1,5 +1,6 @@
 // src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router';
+import KnowledgeDetailPage from '../views/KnowledgeDetailPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -29,6 +30,12 @@ const router = createRouter({
     name: 'ChatPage',
     component: () => import('../views/ChatPage.vue'),  
   },
+  // 在路由配置中添加
+  {
+    path: '/knowledge',
+    name: 'KnowledgeDetail',
+    component: KnowledgeDetailPage
+  }
 ],
 });
 
