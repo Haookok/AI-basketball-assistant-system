@@ -35,7 +35,12 @@ const router = createRouter({
     path: '/knowledge',
     name: 'KnowledgeDetail',
     component: KnowledgeDetailPage
-  }
+  },
+  {
+    path: '/search-results',
+    name: 'searchResults',
+    component: () => import('../views/SearchResults.vue'), 
+  },
 ],
 });
 
